@@ -26,6 +26,7 @@
 
 using namespace o2;
 using namespace o2::framework;
+using namespace std;
 
 struct UDMcCollisions2UDCollisions {
   using LabeledCollisions = soa::Join<aod::UDCollisions, aod::UDMcCollsLabels>;
